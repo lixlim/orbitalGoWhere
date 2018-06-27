@@ -1,0 +1,52 @@
+[debug] [2018-06-27T15:11:15.189Z] ----------------------------------------------------------------------
+[debug] [2018-06-27T15:11:15.192Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Louise\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-06-27T15:11:15.192Z] CLI Version:   3.19.1
+[debug] [2018-06-27T15:11:15.192Z] Platform:      win32
+[debug] [2018-06-27T15:11:15.192Z] Node Version:  v10.5.0
+[debug] [2018-06-27T15:11:15.193Z] Time:          Wed Jun 27 2018 23:11:15 GMT+0800 (Singapore Standard Time)
+[debug] [2018-06-27T15:11:15.193Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-27T15:11:15.204Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-27T15:11:15.205Z] > authorizing via signed-in user
+[debug] [2018-06-27T15:11:15.206Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-27T15:11:15.206Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/m7Jw010Q-Yc5hfrInEnt74h4NcogxvauVmTRplrGqU8',
+  client_id:
+   '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope:
+   'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jun 27 2018 23:11:15 GMT+0800 (Singapore Standard Time)
+[debug] [2018-06-27T15:11:15.499Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-27T15:11:15.526Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/realorbital-386b5  
+  
+ Wed Jun 27 2018 23:11:15 GMT+0800 (Singapore Standard Time)
+[debug] [2018-06-27T15:11:16.579Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-27T15:11:16.581Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/realorbital-386b5/tokens  
+  
+ Wed Jun 27 2018 23:11:16 GMT+0800 (Singapore Standard Time)
+[debug] [2018-06-27T15:11:17.518Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-27T15:11:17.521Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/realorbital-386b5  
+  
+ Wed Jun 27 2018 23:11:17 GMT+0800 (Singapore Standard Time)
+[debug] [2018-06-27T15:11:18.877Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Louise'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-06-27T15:11:19.877Z] Fetching environment
+[debug] [2018-06-27T15:11:19.883Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/207931046306:getServerAppConfig  
+  
+ Wed Jun 27 2018 23:11:19 GMT+0800 (Singapore Standard Time)
+[debug] [2018-06-27T15:11:19.884Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/207931046306/clients/_:getWebAppConfig  
+  
+ Wed Jun 27 2018 23:11:19 GMT+0800 (Singapore Standard Time)
+[debug] [2018-06-27T15:11:20.555Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-27T15:11:20.556Z] Starting @google-cloud/functions-emulator
+[debug] [2018-06-27T15:11:20.614Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-06-27T15:11:23.277Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
