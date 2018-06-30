@@ -1,46 +1,25 @@
+TITLE: Orbital Project 2018 - Go Where
+DONE BY: Lim Li Xuan & Louise Lee
 
-TITLE: 
-Orange - 100% Fully Responsive Free HTML5 Bootstrap Template
+MOTIVATION:
+When we decide to spend time with our friends, there are many a time where we encounter the problem of not knowing what to do or where to go. It seems to us that as grow older, we feel like we have more or less been to many places on our tiny island and there is an increasing lack of ideas/options on how we could spend time with our friends. We tend to feel that Singapore is boring and there is nothing much to do. Hence, we decided to come up with a web application that hopes to introduce Singaporeans to interesting places and events to consider doing in Singapore. We would like our web app to also serve as a platform that introduces our users to unique places in Singapore that are off the beaten track, as well as provide users suggestions on what events/activities they should try out.
 
-AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+AIM:
+We hope to make a platform that enables users to explore options of what to do in Singapore. If possible, this platform may also cater to foreigners (or backpackers) that are visiting Singapore on a budget.
 
 
 CREDITS:
 
-Bootstrap
-http://getbootstrap.com/
+100% Fully Responsive Free HTML5 Bootstrap Template DESIGNED & DEVELOPED by FREEHTML5.co
 
-jQuery
-http://jquery.com/
-
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
-
-Modernizr
-http://modernizr.com/
-
-Google Fonts
-https://www.google.com/fonts/
-
-Google Map
-https://maps.google.com/
-
-Icomoon
-https://icomoon.io/app/
-
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
-
-animate.css
-http://daneden.me/animate
-
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
-
-Demo Images:
-http://unsplash.com
+- Bootstrap
+- jQuery
+- jQuery Easing
+- Modernizr
+- Google Fonts
+- Google Map
+- Icomoon
+- Respond JS
+- animate.css
+- jQuery Waypoint
+- Demo Images: http://unsplash.com
